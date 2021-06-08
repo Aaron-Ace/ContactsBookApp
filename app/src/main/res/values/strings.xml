@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ContactsBooks</string>
+    <string name="description1">
+        This is a contact Book for you,</string>
+    <string name="description2">
+        to store the person who important.</string>
+    <string name="description3">
+        Design by chang hao chan,</string>
+    <string name="description4">
+        student id : 410721303</string>
+</resources>
