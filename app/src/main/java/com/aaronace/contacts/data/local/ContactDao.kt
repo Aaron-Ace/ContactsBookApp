@@ -7,7 +7,8 @@ import com.aaronace.contacts.data.Contact
 @Dao
 interface ContactDao {
 
-    @Query("SELECT * FROM contact ORDER BY firstName ASC")
+    //@Query("SELECT * FROM contact ORDER BY firstName ASC")
+    @Query("SELECT * FROM contact ")
     fun getAllContacts(): LiveData<List<Contact>?>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
